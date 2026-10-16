@@ -1,0 +1,27 @@
+# ---- data (SRTR/OPTN, not redistributable under the DUA) --------------------
+data/
+*.dta
+*.DTA
+*.xlsx
+
+# ---- model objects and derived patient-level tables ------------------------
+# These contain row-level transplant records (DONOR_ID, CTR_CODE) and must
+# never be committed.
+*.RData
+*.rds
+*.csv
+
+# ---- generated figures -----------------------------------------------------
+# Remove this block if you want to publish the final figures in the repo.
+*.pdf
+
+# ---- R / RStudio -----------------------------------------------------------
+.Rhistory
+.Rapp.history
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# ---- OS --------------------------------------------------------------------
+.DS_Store
+Thumbs.db
